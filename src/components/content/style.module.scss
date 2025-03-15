@@ -1,0 +1,17 @@
+.container {
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0f0f;
+}
+
+.container h2 {
+    font-size: 5vw;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
