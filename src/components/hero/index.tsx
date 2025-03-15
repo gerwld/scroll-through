@@ -24,7 +24,7 @@ const index = () => {
                     scrub: 2,
                     pin: true,
                     start: "top top",
-                    end: "bottom+=100px top"
+                    end: "bottom+=500px top"
                 }
             }
         )
@@ -34,7 +34,7 @@ const index = () => {
     return (
         <div ref={containerRef} className={style.container}>
             <video autoPlay loop muted>
-                <source src="/vid.mp4" type="video/mp4" />
+                <source src="/scroll-through/vid.mp4" type="video/mp4" />
             </video>
             <div ref={maskRef} className={style.mask}>
                 <h1>Let the journey begin</h1>
